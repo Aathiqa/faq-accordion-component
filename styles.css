@@ -23,17 +23,22 @@ body {
 }
 
 .card {
-  height: 650px;
+  height: 800px;
   background-color: var(--White);
   border-radius: 6px;
   width: 300px;
+  margin: 160px 0;
+  padding: 15px;
 }
 
 h1 {
   font-size: 50px;
   font-weight: 700;
   color: var(--Purple-950);
+  padding: 25px 20px;
 }
+
+
 
 h4 {
   font-size: 16px;
@@ -44,6 +49,7 @@ h4 {
 p {
   color: var(--Purple-600);
   font-size: 14px;
+  padding: 20px 0 15px;
 }
 
 .attribution { 
