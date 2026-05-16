@@ -5,6 +5,26 @@
   --Purple-950: hsl(292, 42%, 14%);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  height: 400px;
+  background-color: var(--White);
+  border-radius: 6px;
+  width: 300px;
+}
+
 .attribution { 
   font-size: 0.6875rem;
   text-align: center;
