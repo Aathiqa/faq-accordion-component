@@ -37,22 +37,23 @@ body {
   margin: 160px 0;
   padding: 20px;
 
-  @media (min-width: 365px) {
+  @media (min-width: 360px) {
     width: 500px;
   }
 
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   color: var(--Purple-950);
-  padding: 15px 0 15px 80px;
+  padding: 5px 0 15px 60px;
 }
 
 .star-icon {
   position: absolute;
-  top: 205px;
+  top: 190px;
+  height: 25px;
 }
 
 h4 {
