@@ -17,7 +17,7 @@ body {
   background-image: url("assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
 
-  @media  (min-width: 365px) {
+  @media (min-width: 370px) {
     background-image: url("assets/images/background-pattern-desktop.svg");
   }
 
@@ -37,10 +37,21 @@ body {
   margin: 160px 0;
   padding: 20px;
 
-  @media (min-width: 360px) {
-    width: 500px;
+  @media (min-width: 370px) {
+    width: 350px;
   }
 
+  @media (min-width: 500px) {
+    width: 400px;
+  }
+
+  @media (min-width: 630px) {
+    width: 450px;
+  }
+
+  @media (min-width: 760px) {
+    width: 500px;
+  }
 }
 
 h1 {
