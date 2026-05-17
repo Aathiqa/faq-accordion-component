@@ -52,6 +52,7 @@ body {
   @media (min-width: 760px) {
     width: 500px;
   }
+
 }
 
 h1 {
@@ -82,6 +83,8 @@ p {
 .attribution { 
   font-size: 0.6875rem;
   text-align: center;
+  position: relative;
+  top: 435px;
 }
 
 .attribution a {
