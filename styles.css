@@ -14,6 +14,13 @@
 body {
   background-color: var(--Purple-100);
   font-family: "Work Sans", sans-serif;
+  background-image: url("assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+
+  @media  (min-width: 365px) {
+    background-image: url("assets/images/background-pattern-desktop.svg");
+  }
+  
 }
 
 .card-container {
