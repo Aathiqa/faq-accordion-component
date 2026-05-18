@@ -90,6 +90,14 @@ h4 {
   color: var(--Purple-950);
   display: inline-block;
   flex: 1;
+
+  @media (min-width: 370px) {
+    padding-right: 3px;
+  }
+
+  @media (min-width: 500px) {
+    padding-right: 3px;
+  }
 }
 
 .plus-icon {
