@@ -125,7 +125,7 @@ p {
   font-size: 0.6875rem;
   text-align: center;
   position: relative;
-  top: 435px;
+  bottom: -120px;
 }
 
 .attribution a {
