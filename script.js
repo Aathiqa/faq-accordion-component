@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     plusIcon.addEventListener("click", () => {
       plusIcon.style.display = "none";
-      minusIcon.style.display = "block";
+      minusIcon.style.display = "inline-block";
       answer.style.display = "block";
     });
 
     minusIcon.addEventListener("click", () => {
       minusIcon.style.display = "none";
-      plusIcon.style.display = "block";
+      plusIcon.style.display = "inline-block";
       answer.style.display = "none";
     });
   });

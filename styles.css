@@ -72,19 +72,30 @@ h1 {
   height: 25px;
 }
 
+.question-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 h4 {
   font-size: 16px;
   font-weight: 650;
   color: var(--Purple-950);
+  display: inline-block;
 }
 
 .plus-icon {
   cursor: pointer;
+  height: 30px;
+  align-self: flex-end;
 }
 
 .minus-icon {
   display: none;
   cursor: pointer;
+  height: 30px;
+  align-self: flex-end;
 }
 
 p {
@@ -92,6 +103,7 @@ p {
   font-size: 14px;
   padding: 20px 0 15px;
   display: none;
+  width: 100%;
 }
 
 .attribution { 
