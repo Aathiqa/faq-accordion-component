@@ -78,10 +78,20 @@ h4 {
   color: var(--Purple-950);
 }
 
+.plus-icon {
+  cursor: pointer;
+}
+
+.minus-icon {
+  display: none;
+  cursor: pointer;
+}
+
 p {
   color: var(--Purple-600);
   font-size: 14px;
   padding: 20px 0 15px;
+  display: none;
 }
 
 .attribution { 
