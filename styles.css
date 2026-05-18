@@ -21,6 +21,10 @@ body {
     background-image: url("assets/images/background-pattern-desktop.svg");
   }
 
+  @media (min-width: 760px) {
+    overflow: hidden;
+  }
+
 }
 
 .card-container {
@@ -92,6 +96,7 @@ h4 {
   cursor: pointer;
   height: 30px;
   align-self: flex-end;
+  padding: 5px;
 }
 
 .minus-icon {
